@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #333;
+    color: #222;
+    margin: 0;
+    overflow-x: hidden;
+}
+.container {
+    background-color: #fafafa;
+    transform-origin: top left;
+    transition: transform 1s linear ;
+    padding: 50px;
+    width: 100vw;
+    min-height: 100vh;
+}
+.container.show-nav {
+    transform: rotate(-20deg);
+}
+
+.circle-container {
+    position: fixed;
+    top: -100px;
+    left: -100px;
+
+
+}
+.circle {
+    background-color: #ff7979;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: transform 0.5s linear;
+
+}
+.circle button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 26px;
+}
+
+.circle button:focus {
+    outline: none;
+}
+#open {
+    left: 60%;
+    cursor: pointer;
+
+}
+#close {
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    cursor: pointer;
+}
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+}
+.content {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.content small {
+    color: #555;
+    font-style: italic;
+}
+.content p {
+    color: #333;
+    line-height: 1.5;
+}
+.content img {
+    width: 100%;
+
+}
+nav {
+    position: fixed;
+    bottom: 25%;
+    left: 0;
+    z-index: 100;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 30px;
+
+}
+nav ul li {
+    text-transform: uppercase;
+    color: white;
+    margin: 40px 0;
+    transform: translateX(-100px);
+    transition: transform 0.4s ease;
+    cursor: pointer;
+
+}
+nav ul li+li {
+    margin-left: 15px;
+    transform: translateX(-150%);
+
+}
+nav ul li:last-child {
+    margin: 30px;
+    transform: translateX(-200%);
+}
+.container.show-nav + nav li{
+    transform: translateX(0);
+    transition-delay: 0.5s;
+}
