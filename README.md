@@ -1,6 +1,6 @@
 # js-Projects-50
 
-- javascript ile oluşturdupum projelerden oluşmaktadır.
+- javascript ile oluşturduğum projelerden oluşmaktadır.
 
 1. Proje animated pop-up cards
 
@@ -13,3 +13,7 @@
 3. Proje Animasyonlu açılan menu
 
 ![](./animated-dropdown-menu/proje-3.jpg)
+
+4. Proje Açılır kapanır arama kutusu
+
+![](./opening-search-input/proje-4.jpg)
