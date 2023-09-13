@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.bg {
+    background: no-repeat center/cover 
+    url(https://images.unsplash.com/photo-1625558185597-a44138cce398?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmF0dXJhbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0);
+}
+.loading-text {
+    color: lightcoral;
+    font-size: 60px;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin: 20px;
+  
+}
