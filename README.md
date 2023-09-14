@@ -17,3 +17,7 @@
 4. Proje Açılır kapanır arama kutusu
 
 ![](./opening-search-input/proje-4.jpg)
+
+**5. Proje Animated Scroll:** ekran aşağı yukarı hareket ettikçe içerisindeki elementlerin animasyonlu bir şekilde erkranda görünmesi gerçekleştiriliyor.
+
+![](./animated-scroll/animated-scroll.jpg)
