@@ -21,3 +21,7 @@
 **5. Proje Animated Scroll:** ekran aşağı yukarı hareket ettikçe içerisindeki elementlerin animasyonlu bir şekilde erkranda görünmesi gerçekleştiriliyor.
 
 ![](./animated-scroll/animated-scroll.jpg)
+
+**6. Proje Split landing screen:** hover efekti ile üzerine gelinen kısım büyürken diğer kısım küçülür.
+
+![](./split-landing-page/split-screen.jpg)
