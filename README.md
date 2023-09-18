@@ -25,3 +25,5 @@
 **6. Proje Split landing screen:** hover efekti ile üzerine gelinen kısım büyürken diğer kısım küçülür.
 
 ![](./split-landing-page/split-screen.jpg)
+
+**7. Proje Wave animation:**  input alanları aktif olduğunda içerisindeki label  dalga şeklinde yukarı çıkmaktadır.
